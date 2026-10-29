@@ -377,3 +377,31 @@ birthday = datetime.date(2009, 7, 2)
 print(birthday.day)
 print(birthday.year)
 print(birthday.month)
+
+#class and object
+class ClassName:
+   def __init__(self,name,age):
+      self.name = Name
+      self.age = Age
+   def ti_tan(self):
+      print(self.name.upper())
+
+
+class Cat:
+   def __init__(self, name, age):
+      self.name = Name
+      self.age = Age
+   def sound(self):
+       print(f'{self.name.upper()} is my name and I\'m {self.age} fucking years old')
+object_1 = Cat('Kofi', 3)
+
+class book:
+   def __init__(self,title,page):
+      self.title = title
+      self.page = page
+   def __len__(self):
+      return self.page 
+   def __str__(self):
+      return f'{self.title} has {self.page} fucking pages'
+   def __eq__(self,other):
+      return self.page == other.page
